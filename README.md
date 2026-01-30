@@ -1,2 +1,2 @@
-# pf-slogan
-Long short-term memory (LSTM) slogan generation project.
+https://towardsdatascience.com/lstm-networks-a-detailed-explanation-8fae6aefc7f9/
+
