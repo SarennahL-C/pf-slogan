@@ -1,17 +1,3 @@
-Normalised heading levels and section order
-
-Tightened wording to match your established portfolio tone
-
-Integrated the LSTM article reference cleanly (kept, but repositioned)
-
-Kept the Endorsement (appropriate and strong)
-
-Framed limitations as intentional scoping decisions, not gaps
-
-Removed notebook-style narration while preserving insight
-
-This is ready to paste directly into GitHub.
-
 # Slogan Generation and Industry Classification — Neural Network–Based NLP
 
 This project applies **neural network–based natural language processing (NLP)** techniques to build two complementary models: a slogan generator and an industry classifier. Using a dataset of business slogans and their associated industries, the analysis explores how sequence models can both **generate text** and **infer meaning from text**.
