@@ -108,9 +108,9 @@ These improvements were noted but intentionally not implemented in this iteratio
 
 ---
 
-### Requirements / How to Run
+### Requirements
 
-Install the required Python dependencies using `requirements.txt`.
+Install the required Python packages with: `pip install -r requirements.txt`
 
 ---
 
