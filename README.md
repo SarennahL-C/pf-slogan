@@ -1,90 +1,96 @@
-# Slogan Generation and Industry Classification
+Normalised heading levels and section order
 
-This project applies **neural network–based natural language processing (NLP)** techniques to build two complementary models: a slogan generator and an industry classifier. Using a dataset of business slogans and their associated industries, the project explores how sequence models can both **generate text** and **infer meaning from text**. The focus of the project is on **clear structure, modular design, and interpretability**, with an emphasis on building functional models before progressing to more advanced optimisation.
+Tightened wording to match your established portfolio tone
+
+Integrated the LSTM article reference cleanly (kept, but repositioned)
+
+Kept the Endorsement (appropriate and strong)
+
+Framed limitations as intentional scoping decisions, not gaps
+
+Removed notebook-style narration while preserving insight
+
+This is ready to paste directly into GitHub.
+
+# Slogan Generation and Industry Classification — Neural Network–Based NLP
+
+This project applies **neural network–based natural language processing (NLP)** techniques to build two complementary models: a slogan generator and an industry classifier. Using a dataset of business slogans and their associated industries, the analysis explores how sequence models can both **generate text** and **infer meaning from text**.
+
+The project emphasises **clear structure, modular design, and interpretability**, prioritising functional end-to-end systems before extensive optimisation.
 
 ![LSTM architecture diagram](lstm.png)
 
-*Image source: “LSTM Networks – A Detailed Explanation”, Towards Data Science.*
+<sub>Architecture diagram sourced from “LSTM Networks – A Detailed Explanation”, Towards Data Science.</sub>
 
 ---
 
-### What’s in this repository
+## What’s in this repository
 
-- **Jupyter Notebook:** complete capstone implementation (`neural_network_slogan.ipynb`)  
-- **Images:** visuals and reviewer feedback  
-- **Dataset:** `slogan-valid.csv`  
+- **Jupyter Notebook:** full capstone implementation (`neural_network_slogan.ipynb`)  
+- **Dataset:** business slogans and industry labels (`slogan-valid.csv`)  
+- **Images:** visualisations and reviewer feedback  
 - **Requirements:** Python dependencies (`requirements.txt`)  
 
 ---
 
-### Project Context
+## Project Context
 
 This capstone task focused on applying **sequential modelling techniques to a natural language processing problem**, providing experience with real-world NLP workflows.
 
 The objective was to design a system capable of:
 
-- generating business slogans based on industry category  
+- generating business slogans conditioned on industry category  
 - predicting the industry of a business given its slogan  
-- combining both models to evaluate whether generated slogans could be correctly classified  
+- combining both models to assess whether generated slogans could be correctly classified  
 
-The project required careful preprocessing, modular code design, and clear documentation throughout.
+The task required careful text preprocessing, modular code design, and clear documentation throughout.
 
 ---
 
-### Approach Overview
+## Approach Overview
+
+The analysis followed a structured NLP modelling workflow:
 
 - Text cleaning and preprocessing  
 - Tokenisation and sequence encoding  
 - Vocabulary construction and indexing  
 - Development of two neural network models:
-  - slogan generation model  
-  - slogan classification model  
-- Modular function design for reuse and clarity  
+  - a slogan generation model  
+  - a slogan classification model  
+- Modular function design to promote reuse and clarity  
 - Evaluation of generated text and classification behaviour  
 - Comparative analysis of generator and classifier outputs  
 
+The focus throughout was on building reliable, interpretable pipelines rather than maximising performance prematurely.
+
 ---
 
-### Key Insights / Findings
+## Key Insights / Findings
 
-- Functional slogan generation was achieved once stable preprocessing and tokenisation pipelines were in place.  
-- Classification performance demonstrated that industry-related linguistic patterns were being learned, even with limited training.  
+- Stable preprocessing and tokenisation pipelines were critical to achieving functional text generation.  
+- Classification performance indicated that industry-specific linguistic patterns were being learned, even with limited training data.  
 - Generated slogans were often syntactically plausible but semantically inconsistent, highlighting the challenges of small NLP datasets.  
 - Passing generated slogans back through the classifier provided useful insight into where generative and discriminative models diverge.  
 
-The project intentionally prioritised **correct structure and end-to-end functionality** over extensive optimisation.
+Overall, the project demonstrates both the potential and limitations of sequence models applied to constrained NLP problems.
 
 ---
 
-### Endorsement
+## Endorsement
 
 Reviewer feedback highlighted the **high quality and professionalism of the submission**, with particular praise for:
 
 - **Highly readable code** with clear, descriptive variable naming  
 - Strong adherence to **clean coding conventions**  
-- Effective use of **modular functions** that promote reuse and maintainability  
+- Effective use of **modular functions** promoting reuse and maintainability  
 - Inclusion of **docstrings** explaining function purpose, parameters, and outputs  
-- Thoughtful organisation that makes the notebook easy to debug, extend, and maintain  
+- Thoughtful organisation supporting debugging, extension, and long-term maintenance  
 
-Overall feedback described the work as **clean, thoughtful, and well-structured**, noting that it demonstrates strong development habits and attention to long-term maintainability.
-
----
-
-### Current Limitations and Next Steps
-
-While both models are fully functional, performance remains limited by:
-
-- minimal hyperparameter tuning  
-- constrained training time  
-- dataset size  
-
-A logical next phase would involve a **systematic hyperparameter tuning exercise**, exploring embedding dimensions, sequence length, batch size, and model depth to improve both generation quality and classification accuracy.
-
-These improvements were noted but intentionally not implemented in this iteration.
+Overall feedback described the work as **clean, thoughtful, and well-structured**, noting that it demonstrates strong development habits and attention to maintainability.
 
 ---
 
-### Skills Demonstrated
+## Skills Demonstrated
 
 **Analysis**
 - Text preprocessing and tokenisation  
@@ -102,33 +108,29 @@ These improvements were noted but intentionally not implemented in this iteratio
 **Tools**
 - Python  
 - TensorFlow / Keras  
-- NumPy  
 - pandas  
+- NumPy  
 - Jupyter Notebook  
 
 ---
 
-### Requirements
+## Requirements
 
 Install the required Python packages with: `pip install -r requirements.txt`
 
 ---
 
-### Additional reading
+## Why this project belongs in my portfolio
+
+This project demonstrates my ability to design, structure, and document a complete neural network–based NLP system.
+
+Rather than focusing solely on performance metrics, the emphasis is on clean architecture, modular design, and interpretability, reflecting how machine learning systems are developed and maintained in practice. It complements my earlier deep learning work by extending neural networks into text-based modelling and highlighting the iterative nature of NLP development.
+
+---
+
+## Additional reading
 
 The following article was particularly helpful in understanding Long Short-Term Memory (LSTM) architectures and informed both model design and interpretation:
 
 LSTM Networks – A Detailed Explanation, Towards Data Science
 https://towardsdatascience.com/lstm-networks-a-detailed-explanation-8fae6aefc7f9/
-
-The architecture diagram used above (lstm.png) is sourced from this article.
-
----
-
-### Why this project belongs in my portfolio
-
-This project demonstrates my ability to design, structure, and document a complete neural network–based NLP system. Rather than focusing solely on performance metrics, the emphasis is on clean architecture, modular design, and interpretability, reflecting how machine learning systems are developed and maintained in practice.
-
-It complements my earlier deep learning work by extending neural networks into text-based modelling, while also showing awareness of the iterative nature of NLP development.
-
-
