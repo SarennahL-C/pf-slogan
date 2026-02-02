@@ -1,6 +1,5 @@
 numpy
 pandas
-random
 scikit-learn
 spacy
 tensorflow
